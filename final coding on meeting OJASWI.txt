@@ -1,0 +1,96 @@
+package main
+import (
+	    "fmt"
+	    "time"
+	
+	    
+        "https://adventure-works.com/orders/"	
+)
+func task (){
+	fmt.println("link for meeting : https://meet.google.com/dpv-bykk-bdh")
+	fmt.println("no.of meeting : 4 ")
+	fmt.println("all meeting are of id")
+func main() {
+	resp, err := http.Get("http://webcode.me")
+	if err != nil {
+        panic(err)
+	}
+	defer resp.Body.Close()
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil
+	{
+		panic(error)
+    }
+    fmt.Println(string(body))
+}
+
+func task() {
+	     fmt.println("scheduleing a meeting.")
+}
+func main(){
+         resp, err := http.PostForm("https://httpbin.org/post", data)
+	   "id": "9806549"
+	   "title": "Meeting"
+	   "participants": "1st"
+       "start time" : "2020-10-19 21:00"
+       "end time" : "2020-10-19 21:15"
+       "creation timestamp" :"15mins"  
+	}
+{             "name" : "JOYE"
+              "email" : "joye485@gmail"
+              "rsvp" : "maybe" 
+}
+{	   "id": "6749346"
+	   "title": "Meeting"
+	   "participants": "2nd"
+       "start time" : "2020-10-19 21:15"
+       "end time" : "2020-10-19 21:30"
+       "creation timestamp" :"15mins"  
+       }
+{             "name" : "AKIR"
+              "email" : "akir234@gmail"
+              "rsvp" : "yes" 
+}
+{
+	   "id": "0932895"
+	   "title": "Meeting"
+	   "participants": "3rd"
+       "start time" : "2020-10-19 21:15"
+       "end time" : "2020-10-19 21:30"
+       "creation timestamp" :"15mins"  
+}
+{             "name" : "AKIR"
+              "email" : "akir234@gmail"
+              "rsvp" : "yes" 
+}
+{ 
+	   "id": "9823176"
+	   "title": "Meeting"
+	   "participants": "4rth"
+       "start time" : "2020-10-19 21:30"
+       "end time" : "2020-10-19 21:45"
+       "creation timestamp" :"15mins"  
+}
+{             "name" : "NEHA"
+              "email" : "neha675@gmail"
+              "rsvp" : "not answered" 
+}
+{ 
+       "id": ""
+	   "title": "Meeting"
+	   "participants": "5th"
+       "start time" : "2020-10-19 21:30"
+       "end time" : "2020-10-19 21:45"
+       "creation timestamp" :"15mins"  
+}
+{             "name" : "CHOTU"
+              "email" : "tejaswi675@gmail"
+              "rsvp" : "no" 
+}
+
+func TestAbs(t *testing.T) {
+    got := Abs(-1)
+    if got != 1 {
+        t.Errorf("Abs(-1) = %d; want 1", got)
+    }
+}
